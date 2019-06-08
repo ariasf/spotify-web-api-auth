@@ -1,5 +1,5 @@
 # spotify-web-api-auth
-Using AWS lambda and Golang implement the endpoints for Spotify Athorization Code Flow  for mobile apps 
+Using AWS lambda and Golang implement the endpoints for Spotify Athorization Code Flow  for mobile apps. The main idea is to make it easier to fork this code and deploy it for your integration with spotify authorization code workflow, normally used for mobile apps.
 
 ## References:
 
