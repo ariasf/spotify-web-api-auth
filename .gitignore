@@ -10,3 +10,22 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+.idea
+*.zip
+
+/src/github.com/
+/src/golang.org/
+/src/gopkg.in/
+/src/main/vendor
+/src/main/main
+
+/src/main/vendor/github.com/
+/src/main/vendor/golang.org/
+
+
+/bin/
+pkg/
+projectFilesBackup/
+
+/src/gopkg.in/
