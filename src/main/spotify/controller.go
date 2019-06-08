@@ -46,7 +46,9 @@ func Swap(ctx *gin.Context) {
 }
 
 /*
-After getting the initial access and refresh token from the swap endpoint using the authorization code, the refresh token endpoint allows you to get a new access token when the one issued previously has expired, it will also return a new refresh token occasionally, it will send back the send refresh token we sent otherwise.
+After getting the initial access and refresh token from the swap endpoint using the authorization code, the refresh
+token endpoint allows you to get a new access token when the one issued previously has expired, it will also return a
+new refresh token occasionally, it will send back the send refresh token we sent otherwise.
 */
 func Refresh(ctx *gin.Context) {
 

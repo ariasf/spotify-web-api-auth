@@ -1,6 +1,13 @@
 # spotify-web-api-auth
 Using AWS lambda and Golang implement the endpoints for Spotify Athorization Code Flow  for mobile apps 
 
+## References:
+
+[Spotify Documentation on Swap and Refresh](https://developer.spotify.com/documentation/ios/guides/token-swap-and-refresh/)
+
+[Using Go Gin with AWS Lambda](https://github.com/awslabs/aws-lambda-go-api-proxy)
+
+
 ## endpoints 
 
 **Login:**{{API_URL}}/spotify/login
@@ -67,6 +74,9 @@ Using AWS lambda and Golang implement the endpoints for Spotify Athorization Cod
  This is an important step if you do not deploy the api the endpoints won't be available outside API Gateway console 
  
  ![deploy API.PNG](src/imgs/deploy%20API.PNG)
+ 
+ 
+ 
  
  
  
